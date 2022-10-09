@@ -36,11 +36,6 @@ nav{
     height: 35%;
     grid-row: 1;
     padding-bottom: 0%;
-    /* color:red;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;; */
 }
 
 .logo:hover{
@@ -189,4 +184,46 @@ nav{
 .fifth-container{
     padding:5% 5%;
     background-color:black;
+}
+
+.sixth-container{
+    padding:10% 10%;
+    background-color:black;
+}
+
+.but{
+    text-align:left;
+    background: #303030 !important;
+    border: 0 !important;
+    font-weight: 400 !important;
+    margin-bottom: 1px !important;
+    padding: .8em 2.2em .8em 1.2em !important;
+    position: relative !important;
+    width: 100% !important;
+    color:white !important;
+    font-size: 1.625rem !important;
+}
+
+.bod{
+    background: #303030 !important;
+    display: block !important;
+    text-align: left !important; 
+    border-bottom: 8px solid #222 !important;
+    color: #fff !important;
+    margin-bottom: 0 !important;
+    position: relative !important;
+    width:100% !important;
+    font-size: 1.625rem !important;
+}
+
+
+.padd{
+    background-color: black;
+}
+
+.accordion-button::after {
+	background-image: url("images/plus-sym.png");
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("images/x-sym.png");
 }
