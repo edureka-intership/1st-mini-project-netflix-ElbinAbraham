@@ -1,4 +1,8 @@
+
+
+
 .image-container{
+    margin-top:2px;
     background-image:url("../images/netflixbackground2.jpg");
     height:50%;
 }
@@ -75,6 +79,7 @@ nav{
 }
 
 .sec-container{
+    margin-top:2px;
     padding-top:0.5em;
     background-color:black;
 }
@@ -113,6 +118,7 @@ nav{
 }
 
 .third-container{
+    margin-top:2px;
     padding:5% 5%;
     background-color:black;
 }
@@ -154,6 +160,7 @@ nav{
 }
 
 .fourth-container{
+    margin-top:2px;
     padding:5% 5%;
     background-color:black;
 }
@@ -182,11 +189,13 @@ nav{
 }
 
 .fifth-container{
+    margin-top:2px;
     padding:5% 5%;
     background-color:black;
 }
 
 .sixth-container{
+    margin-top:2px;
     padding:10% 10%;
     background-color:black;
 }
@@ -226,4 +235,30 @@ nav{
 }
 .accordion-button:not(.collapsed)::after {
 	background-image: url("images/x-sym.png");
+}
+
+.ce{
+    margin-top: 5%;
+}
+.email1{
+    
+    padding-left: 17%;
+    align-items:center;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+
+.seventh-container{
+    margin-top:2px;
+    padding:5% 5%;
+    background-color:black;
+    color:white;
+}
+
+.lang1{
+    border: 1px solid white;
+}
+
+.image-container,.sec-container,.third-container,.fourth-container,.fifth-container,.sixth-container,.seventh-container{
+    overflow: hidden;
 }
